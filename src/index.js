@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <BrowserRouter basename='/easy-form'>
-     <Route path={'/'} exact component={App}/>
+     <Route path={'/'}  component={App}/>
   </ BrowserRouter>,
   document.getElementById('root')
 );
